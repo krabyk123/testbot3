@@ -10,7 +10,7 @@ vk_session = vk_api.VkApi(token=config.VK_TOKEN)
 vk = vk_session.get_api()
 
 # ← Вставь свой VK user ID (число из vk.com/idЧИСЛО)
-MY_USER_ID = 0
+MY_USER_ID = 427099655
 
 if MY_USER_ID == 0:
     print("❌ Заполни MY_USER_ID в файле test_notify.py")
